@@ -1,2 +1,17 @@
-mijn_lijst = ["Ma","Di","Wo","Do","Vr","Za","Zo"]
-print(mijn_lijst[2:5])
+mijn_lijst = ["Wafels", "Softijs", "Schepijs", "Pannenkoeken"]
+mijn_lijst.append("Muffins")
+for item in mijn_lijst:
+    print(f"Wij verkopen", item)
+    
+
+mijn_dictionary = {
+    "merk" : "Mitshubishi",
+    "model" : "Colt",
+    "Bouwjaar" : 2010,
+    "Kleur" : "blauw",
+    "Staat" : "Gebruikt"
+}
+
+print(mijn_dictionary)
+print(mijn_dictionary["model"])
+
