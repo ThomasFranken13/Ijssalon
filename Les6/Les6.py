@@ -15,3 +15,8 @@ mijn_dictionary = {
 print(mijn_dictionary)
 print(mijn_dictionary["model"])
 
+keys = mijn_dictionary.keys()
+print(keys)
+
+values = mijn_dictionary.values()
+print(values)
